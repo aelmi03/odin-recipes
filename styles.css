@@ -1,4 +1,15 @@
+body{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(100deg, white, orange);
+    background-size: cover;
+    padding: 0px 1em;
+    box-sizing: border-box;
+}
 img{
     width:40%;
     height:40%;
+    border-radius: 10px;
 }
